@@ -1,0 +1,45 @@
+:root{
+    --ef: #fff;
+    --ef1: ;
+   }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--ef);
+    font-family: Phetsarath OT;
+    color: #fff;
+    & h2{
+        text-align: center;
+        color: #1e1e1e;
+    }
+    & h5{
+        color: #1e1e1e;
+        font-size: 26px;
+    }
+
+}
+#header-nav{
+    font-size: 20px;
+    background-color: #00ff00;
+}
+#logo-img{
+    background: url('../Data/logo.png');
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 20px;
+    padding: auto;
+    align-content: center;
+}
+.container {
+    overflow: hidden;
+}
+#m1{
+    width: 10px;
+    height: 250px;
+}
+#m2{
+    
+    background-color: #1e1e1e;
+}
